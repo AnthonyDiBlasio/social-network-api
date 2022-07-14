@@ -1,5 +1,6 @@
 # social-network-api
-![apace](https://img.shields.io/badge/license-Apache%20License%202.0-blue)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 ## Description
 AS A social media startup
 I WANT an API for my social network that uses a NoSQL database
