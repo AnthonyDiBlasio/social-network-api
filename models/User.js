@@ -31,8 +31,9 @@ const userSchema = new Schema(
     {
       // Mongoose supports two Schema options to transform Objects after querying MongoDb: toJSON and toObject.
       // Here we are indicating that we want virtuals to be included with our response, overriding the default behavior
-      friendCount: {
+      toJSON: {
         virtuals: true,
+        getters: true,
       },
       id: false,
     }
@@ -42,10 +43,7 @@ const userSchema = new Schema(
     .virtual('friendcount')
 
     .get(function() {
-      return
-    })
-    .set(function(){
-
+      return this.friends.length;
     });
 
   const User = model('user', userSchema);
