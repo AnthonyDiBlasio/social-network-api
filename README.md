@@ -14,7 +14,8 @@ SO THAT my website can handle large amounts of unstructured data
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-
+Link to DEMO using Insomnia
+https://drive.google.com/file/d/1d_kFtUZgAFRBYsdlAZrtBGLK8QANbHVI/view?usp=sharing
 ## Usage
 GIVEN a social network API
 WHEN I enter the command to invoke the application
